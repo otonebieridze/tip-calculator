@@ -28,10 +28,7 @@ export default function TipCalculator() {
   };
 
   const resetEverything = () => {
-    setBill("");
-    setTip("");
-    setTipValue("");
-    setNumOfPeople("");
+    location.reload();
   };
 
   useEffect(() => {
